@@ -23,10 +23,35 @@
     display: flex;
 }
 
+.logo {
+    width:50px;
+}
+
 .col-1 {
-    width: 50%;
+    width: 100%;
+    font-family: Avenir;
+    font-size: 50px;
+    text-align: left;
 }
 
 .col-2 {
     width: 100%;
+}
+
+.col-3 {
+    width:33.3%;
+}
+
+.galaxy {
+    width:100%;
+    
+}
+
+.galaxy1{
+    width:100%;
+    padding:5px;
+}
+.p{
+    font-family:Avenir;
+    font-size:18px;
 }
