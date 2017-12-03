@@ -1,10 +1,6 @@
 /*https://www.w3schools.com/cssref/css_selectors.asp*/
 
 * {
-    border: 1px solid red !important;
-}
-
-* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -23,15 +19,16 @@
     display: flex;
 }
 
-.logo {
-    width:50px;
+.byline{
+    font-family:Avenir;
+    font-size:18px;
 }
 
 .col-1 {
     width: 100%;
     font-family: Avenir;
     font-size: 50px;
-    text-align: left;
+    text-align: center;
 }
 
 .col-2 {
